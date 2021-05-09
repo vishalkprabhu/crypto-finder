@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Path/to/model"
+	"github.com/vishalkprabhu/crypto-finder/model"
 )
 
 //FetchCrypto is exported ...

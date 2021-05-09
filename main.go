@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/path/to/client"
+	"github.com/vishalkprabhu/crypto-finder/client"
 )
 
 func main() {
