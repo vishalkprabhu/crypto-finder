@@ -1,3 +1,9 @@
+package model
+
+import (
+	"fmt"
+)
+
 // Cryptoresponse is exported, it models the data we receive.
 type Cryptoresponse []struct {
 	Name              string `json:"name"`
@@ -14,4 +20,3 @@ func (c Cryptoresponse) TextOutput() string {
 		c[0].Name, c[0].Price, c[0].Rank, c[0].High, c[0].CirculatingSupply)
 	return p
 }
- 
